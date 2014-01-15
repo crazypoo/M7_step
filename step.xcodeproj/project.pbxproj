@@ -21,6 +21,7 @@
 		CCEFF73A1886346F00F9ACB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEFF71C1886346E00F9ACB2 /* UIKit.framework */; };
 		CCEFF7421886346F00F9ACB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCEFF7401886346F00F9ACB2 /* InfoPlist.strings */; };
 		CCEFF7441886346F00F9ACB2 /* stepTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCEFF7431886346F00F9ACB2 /* stepTests.m */; };
+		CCEFF74E1886349A00F9ACB2 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEFF74D1886349900F9ACB2 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		CCEFF73F1886346F00F9ACB2 /* stepTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "stepTests-Info.plist"; sourceTree = "<group>"; };
 		CCEFF7411886346F00F9ACB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CCEFF7431886346F00F9ACB2 /* stepTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = stepTests.m; sourceTree = "<group>"; };
+		CCEFF74D1886349900F9ACB2 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCEFF74E1886349A00F9ACB2 /* CoreMotion.framework in Frameworks */,
 				CCEFF71B1886346E00F9ACB2 /* CoreGraphics.framework in Frameworks */,
 				CCEFF71D1886346E00F9ACB2 /* UIKit.framework in Frameworks */,
 				CCEFF7191886346E00F9ACB2 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		CCEFF7171886346E00F9ACB2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CCEFF74D1886349900F9ACB2 /* CoreMotion.framework */,
 				CCEFF7181886346E00F9ACB2 /* Foundation.framework */,
 				CCEFF71A1886346E00F9ACB2 /* CoreGraphics.framework */,
 				CCEFF71C1886346E00F9ACB2 /* UIKit.framework */,
